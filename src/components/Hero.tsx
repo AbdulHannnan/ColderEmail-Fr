@@ -24,7 +24,7 @@ export function Hero() {
 
         <div className="hero-copy">
           <span className="eyebrow">Cold email for serious B2B teams</span>
-          <h1>Cold Emails Do Not Work Let's Make Them Colderrrr</h1>
+          <h1>Cold Emails Do Not Work, Let's Make Them Colderrrr</h1>
           <p className="hero-lead">
             Stop blasting templates that end up in spam. Build a bulletproof outbound engine engineered by the #3 Cold Emailer on Upwork.
           </p>
