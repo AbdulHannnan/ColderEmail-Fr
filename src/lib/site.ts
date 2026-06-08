@@ -3,18 +3,14 @@ export const site = {
   email: "hello@colder.email",
   phone: "+1 (000) 000-0000",
   calendarUrl: "#contact",
-  upworkProofImage: "/upwork-proof-placeholder.svg",
+  upworkProofImage: "/upwork-proof-placeholder.png",
   nav: [
     { label: "Proof", href: "#proof" },
     { label: "System", href: "#system" },
     { label: "Results", href: "#results" },
     { label: "Contact", href: "#contact" }
   ],
-  stats: [
-    { value: "3.8x", label: "Average reply lift after offer rewrite" },
-    { value: "21 days", label: "To launch a clean outbound motion" },
-    { value: "0 fluff", label: "Only validated lists, copy and reporting" }
-  ],
+
   services: [
     {
       title: "ICP & list strategy",
