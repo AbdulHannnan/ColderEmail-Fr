@@ -1,7 +1,7 @@
 export const site = {
   name: "Colder Email",
-  email: "hello@colder.email",
-  phone: "+1 (000) 000-0000",
+  email: "ahmad@colder.email",
+  phone: "0307-8409894",
   calendarUrl: "#contact",
   upworkProofImage: "/upwork-proof-placeholder.png",
   nav: [
