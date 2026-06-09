@@ -33,9 +33,14 @@ export function Hero() {
             <a className="btn btn-primary" href="#contact">
               Fix my Pipeline
             </a>
-            <a className="btn btn-ghost" href="#proof">
-              See the Setup
-            </a>
+           <a 
+          className="btn btn-ghost" 
+          href="https://www.upwork.com/freelancers/coldemailcopywriter?mp_source=share" 
+          target="_blank" 
+          rel="noopener noreferrer"
+                                  >
+                       Hire on Upwork
+                </a>
           </div>
        </div>
       </div>
