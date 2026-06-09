@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { Mail, MapPin } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { site } from "@/lib/site";
 
@@ -33,9 +34,20 @@ export function ContactSection() {
             title="Get a cleaner cold email plan before spending more on leads."
             text="Request a Quick campaign audit. I'll review your current setup and send you a clear plan to get better results, even if you don't end up working with me."
           />
+                  {/* Added Contact Details with Icons */}
+          <div style={{ marginTop: '32px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <a href={`mailto:${site.email}`} className="nav-brand" style={{ gap: '12px', fontWeight: '500' }}>
+              <Mail size={20} />
+              {site.email}
+            </a>
+            <div className="nav-brand" style={{ gap: '12px', fontWeight: '500', color: 'var(--muted-strong)' }}>
+              <MapPin size={20} />
+             The Mansion Apartment, JKT Utara, Jakarta 14410, Indonesia
+            </div>
+          </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+  <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <label htmlFor="name">Name</label>
             <input id="name" name="name" placeholder="Your name" required />

@@ -2,7 +2,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 
 export function ProofSection() {
   return (
-    <section className="section-pad proof-section" id="proof">
+    <section className="section-pad proof-section" id="system">
       <div className="container">
         <SectionHeader
           eyebrow="Built around proof"

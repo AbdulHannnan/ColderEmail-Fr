@@ -9,7 +9,7 @@ export default function Stats() {
   ];
 
   return (
-    <section className="section-pad">
+    <section className="section-pad" id="proof">
       <div className="container">
         <div className="proof-cards" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
           {stats.map((item, i) => {
