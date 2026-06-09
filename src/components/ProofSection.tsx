@@ -6,25 +6,40 @@ export function ProofSection() {
       <div className="container">
         <SectionHeader
           eyebrow="Built around proof"
-          title="A landing page that makes cold traffic feel warm."
-          text="The design keeps the client's Upwork screenshot as the credibility anchor, but presents it in a cleaner, more premium way with focused messaging beside it."
+          title="The Colderrrr Infrastructure"
+          text="Send cold emails that feel personalized, land in the primary, and overbook your calendar."
         />
 
         <div className="proof-cards">
           <article>
             <span>01</span>
-            <h3>Trust before pitch</h3>
-            <p>The hero starts with visible proof, not generic claims. Visitors see credibility before the CTA asks for action.</p>
+            <h3>Custom Infrastructure</h3>
+            <p>I build your end-to-end cold email infrastructure using best-in-class providers for domains and mailboxes.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Minimal page flow</h3>
-            <p>Every section is short, calm and easy to scan, making the website feel modern instead of overloaded.</p>
+            <h3>Budget Optimization</h3>
+            <p>Unlike the top 2 guys who charge a leg and a kidney, I keep everything within your budget without sacrificing quality.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Future-ready build</h3>
-            <p>The frontend is separated into components, so API routes, CRM, admin or database features can be added later.</p>
+            <h3>Email Personalization</h3>
+            <p>Intelligent mailbox warmup that mimics human behavior to ensure your emails land in the primary inbox, not spam.</p>
+          </article>
+            <article>
+            <span>04</span>
+            <h3>High-Precision Lists</h3>
+            <p>Sourcing clean, verified lead data so you're only hitting prospects who actually care about what you're selling.</p>
+          </article>
+            <article>
+            <span>05</span>
+            <h3>Secondary Mailboxes</h3>
+            <p>Strategic domain diversification to protect your primary business domain from deliverability issues.</p>
+          </article>
+             <article>
+            <span>06</span>
+            <h3>Full Analytics</h3>
+            <p>Transparent reporting on open rates, reply rates, and conversion metrics to optimize for maximum ROI.</p>
           </article>
         </div>
       </div>
