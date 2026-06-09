@@ -7,8 +7,10 @@ export function Process() {
       <div className="container process-grid">
         <SectionHeader
           eyebrow="Simple process"
-          title="A calm system your client can understand quickly."
-          text="No complicated agency language. The page explains the service in a direct, conversion-focused sequence."
+          title="Better Results, Budget Friendly"
+          text="I'm the #3 cold emailer on Upwork. The 2 guys above me charge a leg and a kidney. Fixed prices. I don't do that.
+
+I build your end to end infrastructure using the best in class providers while keeping everything within your budget. That's why I've got contracts longer than most marriages run and all 5-star reviews."
         />
 
         <div className="timeline">

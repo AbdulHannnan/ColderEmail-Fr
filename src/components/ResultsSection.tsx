@@ -8,7 +8,7 @@ export function ResultsSection() {
         <SectionHeader
           eyebrow="What changes"
           title="More clarity, better replies and a cleaner sales motion."
-          text="This section keeps the benefits sharp and client-facing, without making unrealistic promises."
+          text="I shift the focus from vanity metrics to high-intent engagement with your ideal audience."
         />
 
         <div className="results-panel">
@@ -16,7 +16,9 @@ export function ResultsSection() {
             <span className="soft-label">Outcome focused</span>
             <h3>Designed to convert cold visitors into serious conversations.</h3>
             <p>
-              The layout gives the business a premium first impression, explains the offer quickly and routes qualified visitors into one focused form.
+              My approach is centered around delivering tangible results. I focus on crafting cold email campaigns that not only capture attention but also drive meaningful engagement and conversions.
+            </p>
+            <p>
             </p>
           </div>
           <div className="result-list">

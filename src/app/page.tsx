@@ -6,7 +6,7 @@ import { NavBar } from "@/components/NavBar";
 import { Process } from "@/components/Process";
 import { ProofSection } from "@/components/ProofSection";
 import { ResultsSection } from "@/components/ResultsSection";
-import { Services } from "@/components/Services";
+
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
         <Hero />
         <Features/>
         <ProofSection />
-        <Services />
         <Process />
         <ResultsSection />
         <ContactSection />

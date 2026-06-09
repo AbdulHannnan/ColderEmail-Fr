@@ -12,13 +12,12 @@ export function ContactSection() {
     const form = new FormData(event.currentTarget);
     const name = String(form.get("name") || "");
     const email = String(form.get("email") || "");
-    const website = String(form.get("website") || "");
     const goal = String(form.get("goal") || "");
     const message = String(form.get("message") || "");
 
     const subject = encodeURIComponent(`Campaign audit request from ${name || "website visitor"}`);
     const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nWebsite: ${website}\nMonthly goal: ${goal}\nMessage: ${message}`
+      `Name: ${name}\nEmail: ${email}\nMonthly goal: ${goal}\nMessage: ${message}`
     );
 
     window.location.href = `mailto:${site.email}?subject=${subject}&body=${body}`;
@@ -32,11 +31,8 @@ export function ContactSection() {
           <SectionHeader
             eyebrow="Start here"
             title="Get a cleaner cold email plan before spending more on leads."
-            text="The form is intentionally short. It collects only what is needed to start a useful conversation."
+            text="Request a Quick campaign audit. I'll review your current setup and send you a clear plan to get better results, even if you don't end up working with me."
           />
-          <div className="contact-note">
-            <strong>Future backend ready:</strong> this form can later be connected to a Next.js API route, CRM, email automation or database without redesigning the page.
-          </div>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>
@@ -48,10 +44,7 @@ export function ContactSection() {
             <label htmlFor="email">Work email</label>
             <input id="email" name="email" type="email" placeholder="you@company.com" required />
           </div>
-          <div className="form-row">
-            <label htmlFor="website">Website</label>
-            <input id="website" name="website" type="url" placeholder="https://yourwebsite.com" />
-          </div>
+          {/* Website field removed from here */}
           <div className="form-row">
             <label htmlFor="goal">Monthly goal</label>
             <select id="goal" name="goal" defaultValue="">

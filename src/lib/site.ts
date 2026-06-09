@@ -11,29 +11,11 @@ export const site = {
     { label: "Contact", href: "#contact" }
   ],
 
-  services: [
-    {
-      title: "ICP & list strategy",
-      text: "We define the exact buying segment, exclusions, signals and list logic before a single email is sent."
-    },
-    {
-      title: "Cold email copy system",
-      text: "Short, direct and believable sequences designed around the client's pain, proof and timing."
-    },
-    {
-      title: "Inbox-ready setup",
-      text: "Domain structure, warmup guidance, sender rotation and clean technical foundations for safer sending."
-    },
-    {
-      title: "Weekly optimization",
-      text: "Replies, objections and booked calls are reviewed weekly so the campaign improves instead of guessing."
-    }
-  ],
   steps: [
-    "Audit current offer, website and client proof",
-    "Build clean ICP, list rules and lead source plan",
-    "Write and launch high-intent email sequences",
-    "Track replies, meetings and pipeline quality weekly"
+    "Zero deliverability headaches",
+    "Cost-effective mailbox management",
+    "Strategies that actually book meetings",
+    "100% Five-Star Reviews (even from the tough ones)"
   ],
   results: [
     "Clearer offer positioning for faster buyer understanding",

@@ -8,7 +8,7 @@ export function Footer() {
           <span className="brand-dot" />
           <span>{site.name}</span>
         </a>
-        <p>Cold email systems built with clarity, credibility and conversion in mind.</p>
+        <p>Colderrr email Scale Business not just get replies.</p>
         <a href={`mailto:${site.email}`}>{site.email}</a>
       </div>
     </footer>
