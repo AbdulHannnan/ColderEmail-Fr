@@ -10,15 +10,7 @@ export function Hero() {
       <div className="container hero-grid">
         <div className="proof-visual hero-visual" aria-label="Upwork proof screenshot placeholder">
           <div className="proof-image-wrap">
-            <img src={site.upworkProofImage} alt="Upwork proof placeholder" />
-            <div className="proof-floating-card card-one">
-              <span>Profile strength</span>
-              <strong>Top Rated</strong>
-            </div>
-            <div className="proof-floating-card card-two">
-              <span>Client response</span>
-              <strong>Booked calls</strong>
-            </div>
+            <img src={site.upworkProofImage} alt="Ahmmad N — Upwork profile" />
           </div>
         </div>
 

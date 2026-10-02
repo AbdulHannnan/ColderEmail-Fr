@@ -325,6 +325,38 @@ img {
   letter-spacing: -0.04em;
 }
 
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: auto;
+}
+
+.profile-card-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(11, 16, 24, 0.18);
+}
+
+.profile-card-info strong {
+  display: block;
+  margin-top: 0;
+  color: var(--ink);
+  font-size: 15px;
+  letter-spacing: -0.02em;
+}
+
+.profile-card-info span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
 .card-one {
   top: 8%;
   right: -22px;

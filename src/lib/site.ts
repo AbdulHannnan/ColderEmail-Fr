@@ -3,7 +3,7 @@ export const site = {
   email: "ahmad@colder.email",
   phone: "0307-8409894",
   calendarUrl: "#contact",
-  upworkProofImage: "/upwork-proof-placeholder.png",
+  upworkProofImage: "/upwork-card-new-photo.png",
   nav: [
     { label: "Proof", href: "#proof" },
     { label: "System", href: "#system" },
